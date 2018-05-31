@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<meta charset = "UTF-8">
+		<title></title>
+	</head>	
+	<body>
+	<?php
+	$materia = array ("Matematica","Quimica","Fisica","Espanhol");
+	$mat = array(10,10,1,3);
+	$qui = array(8, 7, 6, 5);
+	$fis = array(3, 0, 10, 2);
+	$esp = array(5, 9, 3, 10);
+
+	echo "<br>A sua media anual da ",$materia[0]," é: " ,($mat[0]+$mat[1]+$mat[2]+$mat[3])/4;	if ($mat > 6){
+		echo ". Você está aprovado";
+	}
+	else if ($mat < 6){
+		echo ". Você está reprovado";
+	}
+	echo "<br>A sua media anual da ",$materia[1]," é: " ,($qui[0]+$qui[1]+$qui[2]+$qui[3])/4;else if ($qui > 6){
+		echo ". Você está aprovado";
+	}
+	else if ($qui < 6){
+		echo ". Você está reprovado";
+	}
+	echo "<br>A sua media anual da ",$materia[2]," é: " ,($fis[0]+$fis[1]+$fis[2]+$fis[3])/4;else if ($fis > 6){
+		echo ". Você está aprovado";
+	}
+	else if ($fis < 6){
+		echo ". Você está reprovado";
+	}
+	echo "<br>A sua media anual da ",$materia[3]," é: " ,($esp[0]+$esp[1]+$esp[2]+$esp[3])/4;else if ($esp < 6){
+		echo ". Você está reprovado";
+	}
+	else {
+		echo ". Você está aprovado";
+	}
+	
+	
+	?>
+</body>
+
+</html>
